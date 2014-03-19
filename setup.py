@@ -5,4 +5,7 @@ setup(
     author='David Knapp',
     author_email='dknapp@iplantcollaborative.org',
     py_modules=['jwt'],
+    install_requires=[
+        'pycrypto >= 2.6.1, < 2.7'
+    ]
 )
